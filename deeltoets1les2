@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+    <title>Aanmelden</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="index FED1" />
+    <meta name="author" content="Ruben Baas" />
+    <meta name="keywords" content="fed, 1, index" />
+
+
+ </head>
+
+  <body>    
+ 
+
+    <h1>
+        Aanmelden
+    </h1>
+
+    <p>
+        Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+        Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+        lopen de studenten stage, in het tweede en afstudeerjaar.
+    </p>
+    <p>
+        CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+        Amsterdam.
+    </p>
+
+    <p>
+        Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+        Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+        Voor vragen of opmerkingen kunt u <a href="contact.html">contact</a> met ons op.
+    </p>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Contactgegevens</legend>
+            <label for="naam">Naam</label>
+            <input id="naam" type="text" ><br />
+            <label for="bedrijf">Bedrijf</label>
+            <input id="bedrijf" type="text" ><br />
+            <label for="adres">Adres</label>
+            <input id="adres" type="text" ><br />
+            <label for="postcode">Postcode</label>
+            <input id="postcode" type="text" placeholder="1234AB"><br />
+            <label for="plaats">Plaats</label>
+            <input id="plaats" type="text" ><br />
+            <label for="telefoonnummer">Telefoonnummer</label>
+            <input id="telefoonnummer" type="tel" ><br />
+            <label for="email">E-mail</label>
+            <input id="email" type="email" ><br /><br />
+            
+            <label>Ik wil mij aanmelden</label><br />
+            <input type="radio" name="project" value="project">Voor een project<br />
+            <input type="radio" name="stagebedrijf" value="stage">Als stagebedrijf
+        
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Project</legend>
+            <label for="titel">Titel</label>
+            <input id="titel" type="text" ><br />
+            <label for="opdrachtomschrijving">Opdrachtomschrijving</label><br />
+            <textarea id="opdrachtomschrijving" rows="5" cols="20"></textarea><br />
+            <label for="doelstelling">Doelstelling/inentie van het project</label><br />
+            <textarea id="doelstelling" rows="5" cols="20"></textarea><br />
+            <label for="looptijd">Looptijd</label>
+            <input id="looptijd" type="text" ><br />
+            <label for="deadline">Deadline</label>
+            <input id="deadline" type="month" ><br /><br />
+
+            <label>Geschikt voor</label><br />
+            <input type="checkbox" name="eerstejaars" >eerstejaars studenten<br />
+            <input type="checkbox" name="tweedejaars" >tweedejaars studenten<br />
+            <input type="checkbox" name="derdejaars" >derdejaars studenten<br />
+            <input type="checkbox" name="afstudeer" >afstudeer studenten<br />
+            <input type="checkbox" name="onbekend" >onbekend<br /><br />
+
+            <label for="opmerkingen">Opmerkingen</label><br />
+            <textarea id="opmerkingen" rows="10" cols="20"></textarea>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Stage</legend>
+            <label>Geschikt voor</label><br />
+            <input type="checkbox" name="tweedejaars" >tweedejaars studenten<br />
+            <input type="checkbox" name="afstudeer" >afstudeer studenten<br />
+            <input type="checkbox" name="onbekend" >onbekend<br /><br />
+
+            <label>Hoelang is de stage?</label><br />
+            <input type="checkbox" name="10weken" >10 weken<br />
+            <input type="checkbox" name="20weken" >20 weken<br /><br />
+
+            
+            <label for="begindatum">Begindatum</label>
+            <input id="begindatum" type="month" ><br /><br />
+
+            <label for="werkzaamheden">Beschrijving werkzaamheden</label><br />
+            <textarea id="werkzaamheden" rows="10" cols="20"></textarea>
+
+
+
+            
+            
+
+        </fieldset>
+
+    </form>
+
+ </body>
+</html>
